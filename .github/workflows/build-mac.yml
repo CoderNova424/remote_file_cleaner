@@ -1,0 +1,36 @@
+name: Build macOS App Bundle
+
+on: [push, workflow_dispatch]
+
+jobs:
+  build-macos:
+    runs-on: macos-latest
+
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install PyInstaller and dependencies
+        run: |
+          pip install pyinstaller pillow
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Build Mac Bundle
+        run: |
+          pyinstaller --windowed --noconsole --target-arch universal2 Remote_File_Cleaner.py
+
+      - name: Zip the App Bundle
+        run: |
+          cd dist
+          zip -r ../RemoteFileCleaner_Mac.zip Remote_File_Cleaner.app
+
+      - name: Upload Finished App to GitHub
+        uses: actions/upload-artifact@v4
+        with:
+          name: macos-application
+          path: RemoteFileCleaner_Mac.zip
