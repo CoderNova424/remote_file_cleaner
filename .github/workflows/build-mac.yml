@@ -23,7 +23,7 @@ jobs:
 
       - name: Build Mac Bundle
         run: |
-          pyinstaller --windowed --noconsole --name="RemoteFileCleaner" --target-arch universal2 Remote_File_Cleaner.py
+          pyinstaller --windowed --noconsole --name="RemoteFileCleaner" Remote_File_Cleaner.py
 
       - name: Zip the App Bundle
         run: |
