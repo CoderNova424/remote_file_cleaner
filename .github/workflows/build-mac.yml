@@ -13,21 +13,22 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.10'
 
       - name: Install PyInstaller and dependencies
         run: |
-          pip install pyinstaller pillow
+          pip install --upgrade pip
+          pip install pyinstaller pillow send2trash
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: Build Mac Bundle
         run: |
-          pyinstaller --windowed --noconsole --target-arch universal2 Remote_File_Cleaner.py
+          pyinstaller --windowed --noconsole --name="RemoteFileCleaner" --target-arch universal2 Remote_File_Cleaner.py
 
       - name: Zip the App Bundle
         run: |
           cd dist
-          zip -r ../RemoteFileCleaner_Mac.zip Remote_File_Cleaner.app
+          zip -r ../RemoteFileCleaner_Mac.zip RemoteFileCleaner.app
 
       - name: Upload Finished App to GitHub
         uses: actions/upload-artifact@v4
