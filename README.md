@@ -24,3 +24,8 @@ No Python installation or additional setup is required.
 - ## For Developers
 
 The source code is included in this repository for anyone who wants to inspect or modify the project.
+
+Here is a screenshot of this app:
+
+<img width="1108" height="873" alt="image" src="https://github.com/user-attachments/assets/94fde64b-8b72-42e4-af97-e5766439782e" />
+
