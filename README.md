@@ -27,5 +27,7 @@ The source code is included in this repository for anyone who wants to inspect o
 
 Here is a screenshot of this app:
 
-<img width="1108" height="873" alt="image" src="https://github.com/user-attachments/assets/94fde64b-8b72-42e4-af97-e5766439782e" />
+<img width="1108" height="873" alt="image" src="https://github.com/user-attachments/assets/1a71105a-5b6b-4285-bab8-d5213748ae82" />
+
+
 
