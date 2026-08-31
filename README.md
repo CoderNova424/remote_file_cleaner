@@ -4,7 +4,7 @@ Junk Cleaner is a Windows application for finding and safely removing unwanted f
 
 ## Download
 
-Download `JunkCleaner.exe` from the latest GitHub Release.
+Download `[JunkCleaner.exe](amazon.ca)` from the latest GitHub Release.
 
 Once downloaded, simply double-click `JunkCleaner.exe` to open Junk Cleaner.
 
