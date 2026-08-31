@@ -1,4 +1,4 @@
-# Junk Cleaner
+`# Junk Cleaner
 
 Junk Cleaner is a Windows application for finding and safely removing unwanted files. It includes customizable file extensions, safe deletion with send2trash, and Remote Clean for transferring folders between computers.
 
@@ -27,7 +27,7 @@ The source code is included in this repository for anyone who wants to inspect o
 
 Here is a screenshot of this app:
 
-<img width="1108" height="873" alt="image" src="https://github.com/user-attachments/assets/1a71105a-5b6b-4285-bab8-d5213748ae82" />
+<img width="1108" height="873" alt="image" src="https://github.com/user-attachments/assets/1a71105a-5b6b-4285-bab8-d5213748ae82" />`
 
 
 
