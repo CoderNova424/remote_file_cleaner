@@ -1,4 +1,4 @@
-import base64
+
 #| Import            | What it does                                                                                 |
 #| ----------------- | -------------------------------------------------------------------------------------------- |
 #| `base64`          | Converts data to/from **Base64** text, often used for encoding files or images               |
@@ -25,7 +25,7 @@ import base64
 
 
 
-
+import base64
 import io
 import os
 import threading
