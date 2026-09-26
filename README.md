@@ -31,5 +31,9 @@ Here is a screenshot of this app:
 
 <img width="1108" height="873" alt="image" src="https://github.com/user-attachments/assets/1a71105a-5b6b-4285-bab8-d5213748ae82" />
 
+Download .exe from here directly:
+<img width="1482" height="322" alt="image" src="https://github.com/user-attachments/assets/86656920-d4f8-4579-bcaf-347878b1693e" />
+
+
 
 
